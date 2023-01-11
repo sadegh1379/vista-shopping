@@ -1,7 +1,7 @@
 import React from 'react'
 import shoppingCard from '../assets/shopping-cart.png';
 import search from '../assets/search.png';
-import logo from '../assets/LOGO.png';
+import logo from '../assets/logo.png';
 import Image from 'next/image';
 
 const Navbar = () => {
