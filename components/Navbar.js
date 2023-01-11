@@ -1,7 +1,7 @@
 import React from 'react'
 import shoppingCard from '../assets/shopping-cart.png';
 import search from '../assets/search.png';
-import logo from '../assets/logo.png';
+// import logo from '../assets/logo.png';
 import Image from 'next/image';
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
                </div>
           </div>
           <div>
-               <Image src={logo} className="w-5 h-5 lg:w-8 lg:h-8"/>
+               {/* <Image src={logo} className="w-5 h-5 lg:w-8 lg:h-8"/> */}
                <div>
               
                </div>
