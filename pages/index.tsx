@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Navbar } from '../components'
+import { Banner, Navbar } from '../components'
+
 const Home = () => {
   return (
     <div className="">
@@ -10,6 +11,7 @@ const Home = () => {
       </Head>
       <div className='w-full lg:w-[80%] mx-auto'>
         <Navbar />
+        <Banner/>
       </div>
     </div>
   )
