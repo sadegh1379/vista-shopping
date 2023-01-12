@@ -13,6 +13,7 @@ const Navbar = () => {
         </button>
         <span className="rounded-full p-3 bg-gray-1 cursor-pointer">
           <Image
+            alt="Mountains"
             width={5}
             height={5}
             src={"/images/shopping-cart.png"}
@@ -21,6 +22,7 @@ const Navbar = () => {
         </span>
         <div className="flex bg-gray-1 rounded-full items-center pr-5 ">
           <Image
+            alt="Mountains"
             width={5}
             height={5}
             src={"/images/search.png"}
@@ -39,6 +41,7 @@ const Navbar = () => {
             <span className="text-sm">دسته بندی ها</span>
             <span>
               <Image
+                alt="Mountains"
                 width={4}
                 height={4}
                 src={"/images/category.png"}
@@ -50,6 +53,7 @@ const Navbar = () => {
             <span className="text-sm">پرفروش ترین ها</span>
             <span>
               <Image
+                alt="Mountains"
                 width={4}
                 height={4}
                 src={"/images/fire.png"}
@@ -61,6 +65,7 @@ const Navbar = () => {
             <span className="text-sm">تخفیف دار ها</span>
             <span>
               <Image
+                alt="Mountains"
                 width={4}
                 height={4}
                 src={"/images/ticket-discount.png"}
@@ -70,6 +75,7 @@ const Navbar = () => {
           </li>
         </ul>
         <Image
+          alt="Mountains"
           width={5}
           height={5}
           src={"/images/logo.png"}

@@ -1,6 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Banner, Navbar } from '../components'
+import Head from "next/head";
+import { Banner, Navbar, SecondBanner, ProductSlider } from "../components";
 
 const Home = () => {
   return (
@@ -9,12 +8,16 @@ const Home = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='w-full lg:w-[80%] mx-auto'>
+      <div className="w-full lg:w-[80%] mx-auto">
         <Navbar />
-        <Banner/>
+        <div className="p-2 lg:p-0 mb-10">
+          <Banner />
+          <SecondBanner />
+          <ProductSlider />
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

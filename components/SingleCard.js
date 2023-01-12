@@ -7,15 +7,16 @@ import { ThreeCama } from '../utils/ThreeCama';
 const SingleCard = () => {
      console.log()
   return (
-    <div className="flex flex-col relative overflow-hidden bg-gray-1">
+    <div className="flex flex-col relative overflow-hidden bg-gray-1 rounded-xl">
       <Image
-        className="mx-auto mt-5 w-[200px] h-[200px]"
+        alt="Mountains"
+        className="mx-auto mt-5 w-[150px] h-[150px]"
         width={200}
         height={200}
         src={"/images/item1.png"}
       />
       <div className="p-4 leading-10">
-        <p className="text-right font-bold mt-3">همزن برقی Sanford</p>
+        <p className="text-right font-bold mt-5">همزن برقی Sanford</p>
         <span className="text-right flex gap-2 items-center mt-5">
           <span className="text-gray-400 text-sm">تومان</span>
           <span className="font-bold">{Number(12300).toLocaleString()}</span>
