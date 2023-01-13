@@ -47,7 +47,7 @@ const ProductSlider = () => {
 
   return (
     <div className="flex flex-col justify-center my-3">
-      <div className="flex items-center flex-row-reverse gap-3">
+      <div className="flex items-center flex-row-reverse gap-3 my-3">
         <span className="w-[35px] h-[35px] bg-gray-1 rounded-full flex justify-center items-center">
           <Image
             width={20}
@@ -55,7 +55,7 @@ const ProductSlider = () => {
             src={"/images/ticket-discount-red.png"}
           />
         </span>
-        <span className="text-c-black md:font-semibold md:text-lg text-xs my-3">
+        <span className="text-c-black md:font-bold md:text-md text-xs my-3">
           تخفیف های ویتسل
         </span>
         <div className="border border-b-[0.3px] mt-1 border-red-100 flex-1" />

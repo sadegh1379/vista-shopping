@@ -1,5 +1,13 @@
 import Head from "next/head";
-import { Banner, Navbar, SecondBanner, ProductSlider, ThirdBanner } from "../components";
+import {
+  Banner,
+  Navbar,
+  SecondBanner,
+  ProductSlider,
+  ThirdBanner,
+  DownloadApp,
+  ProductsCategory,
+} from "../components";
 
 const Home = () => {
   return (
@@ -14,7 +22,10 @@ const Home = () => {
           <Banner />
           <SecondBanner />
           <ProductSlider />
-          <ThirdBanner />
+          <SecondBanner />
+          <ProductsCategory />
+          {/* <ThirdBanner />
+          <DownloadApp /> */}
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import React from "react";
 
 const ThirdBanner = () => {
   return (
-    <div className="grid grid-rows-2 md:grid-cols-2 gap-3">
+    <div className="grid grid-rows-2 md:grid-cols-2 gap-3 my-3">
       <div className="grid grid-rows-2 gap-3 h-[300px]">
         <div style={{ width: "100%", height: "100%", position: "relative" }}>
           <Image

@@ -9,7 +9,7 @@ const Banner = () => {
       <div className="col-span-3 hidden md:block">
         <SingleCard />
       </div>
-      <div className="md:col-span-9 col-span-12 h-52 md:h-auto  overflow-hidden relative">
+      <div className="md:col-span-9 col-span-12 h-32 md:h-auto  overflow-hidden relative">
         <div style={{ width: "100%", height: "100%", position: "relative" }}>
           <Image
             alt="Mountains"
@@ -19,7 +19,7 @@ const Banner = () => {
           />
         </div>
         <div
-          className="absolute top-[50%] left-0 bottom-0 cursor-pointer
+          className="absolute top-[45%] left-0 bottom-0 cursor-pointer
         rotate-45 w-10 h-10 -ml-4 text-right p-2 rounded-xl bg-white flex justify-center items-center"
         >
           <span className="ml-1">
@@ -27,7 +27,7 @@ const Banner = () => {
           </span>
         </div>
         <div
-          className="absolute top-[50%] right-0 bottom-0 cursor-pointer
+          className="absolute top-[45%] right-0 bottom-0 cursor-pointer
         rotate-45 w-10 h-10 -mr-4 text-right p-2 rounded-xl bg-white flex justify-center items-center"
         >
           <span className="mr-1">
