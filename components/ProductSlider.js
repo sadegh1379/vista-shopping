@@ -59,8 +59,8 @@ const ProductSlider = ({ title }) => {
           {title}
         </span>
         <div className="border border-b-[0.3px] mt-1 border-red-100 flex-1" />
-        <span className="text-xs cursor-pointer">مشاهده همه</span>
-        <ChevronLeftIcon className="w-5 h-5 text-gray-400 mt-1" />
+        <span className="hidden md:block text-xs cursor-pointer">مشاهده همه</span>
+        <ChevronLeftIcon className="hidden md:block w-5 h-5 text-gray-400 mt-1" />
       </div>
       <div className="relative">
         <div

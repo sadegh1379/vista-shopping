@@ -11,7 +11,7 @@ const DownloadApp = () => {
             width={200}
             height={300}
             src="/images/phone.png"
-            className="absolute bottom-0 left-5"
+            className="absolute bottom-0 left-16"
           />
         </div>
         <div className="col-span-12 lg:col-span-8 flex flex-col justify-between">

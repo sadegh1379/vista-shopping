@@ -53,8 +53,8 @@ const Suggestions = () => {
           پیشنهادات شگفت انگیر
         </span>
         <div className="border border-b-[0.3px] mt-1 border-red-100 flex-1" />
-        <span className="text-xs cursor-pointer">مشاهده همه</span>
-        <ChevronLeftIcon className="w-5 h-5 text-gray-400 mt-1" />
+        <span className="text-xs hidden md:block cursor-pointer">مشاهده همه</span>
+        <ChevronLeftIcon className="hidden md:block w-5 h-5 text-gray-400 mt-1" />
       </div>
       <div className="grid grid-cols-12 gap-3">
         <div className="md:col-span-9 col-span-12 grid grid-cols-1 md:grid-cols-3 gap-3">
