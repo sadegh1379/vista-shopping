@@ -32,7 +32,7 @@ const CardItem = () => {
         height={25}
         alt="fire"
         className="absolute top-0 left-2"
-        src={"/images/fire-a.png"}
+        src={"/images/fire-a.jpg"}
       />
     </div>
   );
@@ -82,7 +82,7 @@ const Suggestions = () => {
             height={35}
             alt="fire"
             className="absolute top-0 left-3"
-            src={"/images/fire-a.png"}
+            src={"/images/fire-a.jpg"}
           />
         </div>
       </div>
