@@ -8,6 +8,7 @@ import {
   DownloadApp,
   ProductsCategory,
   Suggestions,
+  Footer,
 } from "../components";
 
 const Home = () => {
@@ -29,6 +30,7 @@ const Home = () => {
           <ProductSlider title="پرفروش ترین محصولات" />
           <ThirdBanner />
           <DownloadApp />
+          <Footer />
         </div>
       </div>
     </div>

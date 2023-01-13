@@ -8,16 +8,16 @@ const Navbar = () => {
           lg:rounded-full"
     >
       <div className="flex gap-3 lg:gap-5">
-        <button className="rounded-full text-sm bg-red text-white px-3 py-2">
+        <button className="rounded-full text-xs md:text-sm bg-red text-white px-3 py-2">
           ورود / ثبت نام
         </button>
-        <span className="rounded-full p-3 bg-gray-1 cursor-pointer">
+        <span className="cursor-pointer">
           <Image
             alt="Mountains"
-            width={5}
-            height={5}
-            src={"/images/shopping-cart.png"}
-            className="w-5 h-5"
+            width={40}
+            height={40}
+            src={"/images/shopping-cart-2.png"}
+            className="h-[40px] w-[40px]"
           />
         </span>
         <div className="flex bg-gray-1 rounded-full items-center pr-5 ">
@@ -78,7 +78,7 @@ const Navbar = () => {
           alt="Mountains"
           width={5}
           height={5}
-          src={"/images/logo.png"}
+          src={"/images/big-logo.png"}
           className="w-5 h-5 lg:w-5 lg:h-5 mx-2"
         />
       </div>

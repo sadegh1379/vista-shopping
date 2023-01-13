@@ -3,7 +3,7 @@ import React from "react";
 
 const DownloadApp = () => {
   return (
-    <div className="py-5 lg:py-16 px-5 mt-5 lg:mt-16">
+    <div className="py-0 lg:py-16 lg:px-5 px-0 mt-5 lg:mt-16">
       <div className="bg-red w-[100%] h-auto lg:w-[80%] lg:h-[150px] mx-auto rounded-xl p-1 grid grid-cols-12 relative">
         <div className="hidden lg:block lg:col-span-4">
           <Image
