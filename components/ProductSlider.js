@@ -34,7 +34,7 @@ const ProductItem = () => {
   );
 };
 
-const ProductSlider = () => {
+const ProductSlider = ({ title }) => {
   const scrollable = useRef(null);
 
   const scrollIt = (toRight) => {
@@ -56,7 +56,7 @@ const ProductSlider = () => {
           />
         </span>
         <span className="text-c-black md:font-bold md:text-md text-xs my-3">
-          تخفیف های ویتسل
+          {title}
         </span>
         <div className="border border-b-[0.3px] mt-1 border-red-100 flex-1" />
         <span className="text-xs cursor-pointer">مشاهده همه</span>

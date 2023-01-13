@@ -5,7 +5,7 @@ import ProductSlider from './ProductSlider';
 import ThirdBanner from './ThirdBanner';
 import DownloadApp from './DownloadApp';
 import ProductsCategory from './ProductsCategory';
-
+import Suggestions from './Suggestions';
 export {
      Navbar,
      Banner,
@@ -14,4 +14,5 @@ export {
      ThirdBanner,
      DownloadApp,
      ProductsCategory,
+     Suggestions,
 };

@@ -7,6 +7,7 @@ import {
   ThirdBanner,
   DownloadApp,
   ProductsCategory,
+  Suggestions,
 } from "../components";
 
 const Home = () => {
@@ -21,11 +22,13 @@ const Home = () => {
         <div className="p-2 lg:p-0 mb-10">
           <Banner />
           <SecondBanner />
-          <ProductSlider />
+          <ProductSlider title="تخفیف های ویتسل"/>
           <SecondBanner />
           <ProductsCategory />
-          {/* <ThirdBanner />
-          <DownloadApp /> */}
+          <Suggestions />
+          <ProductSlider title="پرفروش ترین محصولات" />
+          <ThirdBanner />
+          <DownloadApp />
         </div>
       </div>
     </div>
