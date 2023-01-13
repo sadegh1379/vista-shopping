@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Yekan';
+  src: url('../assets/fonst/yekan/Yekan.eot');
+  src: url('../assets/fonst/yekan/Yekan.woff');
+  font-weight: 400;
+  font-style: normal;
+  }
+  @font-face {
+    font-family: 'Sans';
+    src: url('../assets/fonst/iransans/IRANSansWeb.ttf');
+    font-weight: 400;
+    font-style: normal;
+    }
+p , span{
+  font-family: 'Sans' !important;
+}
+
 /* colors */
 .bg-red {
   background: linear-gradient(252.18deg, #d72339 0.28%, #f23b51 93.8%);
