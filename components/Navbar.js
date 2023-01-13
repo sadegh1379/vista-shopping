@@ -5,14 +5,14 @@ const Navbar = () => {
   return (
     <nav>
       <div className="flex lg:hidden flex-row-reverse items-center gap-3 p-2 cursor-pointer">
-      <Image
-                  alt="Mountains"
-                  width={30}
-                  height={30}
-                  src={"/images/big-logo.png"}
-                  className="w-[30px] h-[30px]"
-                  />
-                  <h1 className="text-xl font-semibold text-red">ویستل</h1>  
+        <Image
+          alt="Mountains"
+          width={30}
+          height={30}
+          src={"/images/big-logo.png"}
+          className="w-[30px] h-[30px]"
+        />
+        <h1 className="text-xl font-semibold text-red">ویتسل</h1>
       </div>
       <div
         className="w-full flex justify-between items-center lg:mt-2 p-3 shadow-md
@@ -20,7 +20,7 @@ const Navbar = () => {
       >
         <div className="flex items-center gap-3 lg:gap-5">
           <button className="hidden lg:block rounded-full text-xs md:text-sm bg-red text-white px-3 py-2">
-            ورود / ثبت نام
+            <p> ورود / ثبت نام</p>
           </button>
           <span className="block lg:hidden cursor-pointer">
             <Image
