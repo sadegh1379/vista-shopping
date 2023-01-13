@@ -19,7 +19,7 @@ const Home = () => {
       </Head>
       <div className="w-full lg:w-[80%] mx-auto">
         <Navbar />
-        <div className="p-2 lg:p-0 mb-10">
+        <div className="p-2 overflow-x-hidden lg:p-0 mb-10">
           <Banner />
           <SecondBanner />
           <ProductSlider title="تخفیف های ویتسل"/>
