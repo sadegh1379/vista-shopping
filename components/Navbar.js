@@ -49,8 +49,12 @@ const Navbar = () => {
               className="w-4 h-4 cursor-pointer mx-3"
             />
             <input
-              className="text-right bg-transparent flex-1 outline-none text-sm md:p-3 p-1 py-2"
+              className="hidden md:block text-right bg-transparent flex-1 outline-none text-sm md:p-3 p-1 py-2"
               placeholder="...جستجوی محصولات"
+            />
+             <input
+              className="block md:hidden text-right bg-transparent flex-1 outline-none text-sm md:p-3 p-1 py-2"
+              placeholder="...جستجو"
             />
           </div>
         </div>
